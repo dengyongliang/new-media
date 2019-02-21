@@ -1,0 +1,134 @@
+@charset "UTF-8";
+body{
+  background: #fff;
+}
+.row-list .list>ul{
+  margin: 20px;
+  list-style: none;
+  padding: 0px;
+}
+.row-list .list>ul li{
+  background: #fff;
+  text-align: left;
+}
+.row-list .media img{
+  width: 100%;
+}
+.row-list .media *{
+  padding: 0px;
+}
+.row-list .media .media-body{
+  width: 100%;
+  padding: 20px;
+}
+.row-list .media .media-time{
+  color: #666;
+}
+.row-list .media .media-heading{
+  color: #22567e;
+  font-size: 20px;
+  padding: 15px 0 20px 0;
+  font-weight: 200;
+}
+.row-list .media p{
+  color: #666;
+}
+.row-list .pageNav{
+  display: none;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .row-list{
+    padding-top: 60px;
+  }
+  .row-list .pageT{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .row-list .pageT strong{
+    font-size: 34px;
+    color: #2e2e2e;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .row-list .pageT span{
+    font-size: 16px;
+    color: #9aa0b1;
+  }
+  .row-list .list{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: none;
+    padding-bottom: 55px;
+    text-align: left;
+  }
+  .row-list .list>ul{
+    padding: 55px;
+    margin: 0px 60px;
+  }
+  .row-list .list>ul li{
+    padding-top: 10px;
+    background: none;
+  }
+  .row-list .media{
+    background: #fff;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eae4d8;
+  }
+  .row-list .media img{
+    max-width: 233px;
+  }
+  .row-list .media .media-left{
+    width: auto;
+    float: left;
+    padding: 0px;
+    padding-right: 15px;
+  }
+  .row-list .media .media-body{
+    width: auto;
+    display: block;
+    float: none;
+    padding: 0px;
+  }
+  .row-list .media .media-time{
+    color: #868686;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .row-list .media .media-heading{
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: 600;
+    margin: 0px;
+  }
+  .row-list .media a{
+    text-decoration: none;
+    color: #3d3d3d;
+  }
+  .row-list .media p{
+    color: #868686;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .row-list .pageNav{
+    display: block;
+  }
+  .row-list a.more{
+    font-size: 15px;
+    color: #3f82ff;
+  }
+}
