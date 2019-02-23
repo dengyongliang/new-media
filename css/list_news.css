@@ -2,6 +2,9 @@
 body{
   background: #fff;
 }
+.carousel{
+  margin-bottom: 20px;
+}
 .row-list .list>ul{
   margin: 20px;
   list-style: none;
@@ -48,6 +51,9 @@ body{
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */
 @media (min-width: 1200px) {
+  .carousel{
+    margin-bottom: 0px;
+  }
   .row-list{
     padding-top: 60px;
   }
