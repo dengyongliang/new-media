@@ -2,6 +2,28 @@
 .carousel{
   margin-bottom: 30px;
 }
+.row-article .wrap{
+  text-align: center;
+}
+.row-article .menu ul{
+  list-style: none;
+  padding: 0px 15px;
+}
+.row-article .menu ul li{
+  margin-bottom: 10px;
+  padding: 0 5px;
+}
+.row-article .menu ul li a{
+  display: block;
+  color:#1f4f77;
+  line-height: 30px;
+  border: 2px solid #1f4f77;
+  text-decoration: none;
+}
+.row-article .menu ul li.active a{
+  background: #1f4f77;
+  color: #fff;
+}
 .row-article h1{
   font-size: 25px;
   color: #2e2e2e;
@@ -9,6 +31,8 @@
 }
 .row-article .article{
   background: #fff;
+  text-align: center;
+  padding: 30px 20px;
 }
 .row-article .article .info{
   font-size: 14px;
@@ -21,7 +45,7 @@ article img{
 article{
   text-align: left;
   padding: 10px 0;
-  border-top: 1px dashed #aaa;
+  border-top: 1px dashed #ddd;
 }
 
 article p{
@@ -48,9 +72,49 @@ article *{
     font-size: 30px;
     margin-bottom: 20px;
   }
-  .row-article .article{
+  .row-article .wrap{
     max-width: 1200px;
     margin: 0 auto;
+  }
+  .row-article .menu{
+    float: left;
+    width: 270px;
+    margin-right: 40px;
+  }
+  .row-article .menu ul{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:1px solid #ececec;
+    background: #fff;
+    text-align: left;
+    overflow: hidden;
+    padding: 0px;
+  }
+  .row-article .menu ul li{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .row-article .menu ul li.active a{
+    background: none;
+    color: #21577d;
+    border-left-color: #22567e;
+  }
+  .row-article .menu ul li a{
+    color: #333;
+    text-decoration: none;
+    border: none;
+    line-height: 50px;
+    padding-left: 35px;
+    border-left: 3px solid #fff;
+    border-bottom: 1px solid #ececec;
+  }
+  .row-article .menu ul li:nth-last-child(1) a{
+    border-bottom: none;
+  }
+  .row-article .article{
+    overflow: hidden;
+    margin: 0 auto 30px auto;
     overflow: hidden;
     padding: 40px 0;
     text-align: center;
@@ -58,7 +122,7 @@ article *{
   article{
     text-align: left;
     margin: 30px 0 0 0;
-    padding: 30px 200px;
+    padding: 30px 100px;
   }
   article img{
     width: auto;

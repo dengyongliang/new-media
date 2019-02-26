@@ -2,36 +2,16 @@
 body{
   background: #fff;
 }
+.carousel{
+  margin-bottom: 20px;
+}
 .row-list .list>ul{
-  margin: 20px;
   list-style: none;
+  margin: 0px;
   padding: 0px;
 }
-.row-list .list>ul li{
-  background: #fff;
-  text-align: left;
-}
-.row-list .media img{
-  width: 100%;
-}
-.row-list .media *{
-  padding: 0px;
-}
-.row-list .media .media-body{
-  width: 100%;
-  padding: 20px;
-}
-.row-list .media .media-time{
-  color: #666;
-}
-.row-list .media .media-heading{
-  color: #22567e;
-  font-size: 20px;
-  padding: 15px 0 20px 0;
-  font-weight: 200;
-}
-.row-list .media p{
-  color: #666;
+.row-list .list>ul img{
+  max-width: 100%;
 }
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px) {
@@ -45,6 +25,9 @@ body{
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */
 @media (min-width: 1200px) {
+  .carousel{
+    margin-bottom: 0px;
+  }
   .row-list{
     padding-top: 60px;
   }
@@ -58,6 +41,7 @@ body{
   .row-list .list>ul{
     padding: 40px 30px;
     margin: 0px;
+    list-style: none;
   }
   .row-list .list>ul li{
     text-align: center;

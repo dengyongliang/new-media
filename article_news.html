@@ -13,42 +13,42 @@
 
 <!-- 导航区 -->
 <nav class="navbar navbar-default">
-    <img src="img/img_03.png" alt="" class="mobile-banner" />
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo.png" alt="logo" />
-        </a>
+  <img src="img/img_03.png" alt="" class="mobile-banner" />
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="logo" />
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">首页</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于中讯</a>
+          <ul class="dropdown-menu">
+            <li><a href="about_us.html">公司简介</a></li>
+            <li><a href="about_us.html">企业文化</a></li>
+            <li><a href="about_us.html">联系我们</a></li>
+            <li><a href="list_news.html">中讯动态</a></li>
+            <li><a href="#">加入我们</a></li>
+          </ul>
+        </li>
+        <li><a href="list_product.html">产品中心</a></li>
+        <li><a href="list_product.html">经典案例</a></li>
+        <li><a href="list_product.html">技术支持</a></li>
+        <li><a href="list_product.html">联系我们</a></li>
+      </ul>
+      <div class="btnDiv">
+        <button type="button" class="btn btn-default">登录</button>
+        <button type="button" class="btn btn-primary">注册</button>
       </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">首页</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于中讯</a>
-            <ul class="dropdown-menu">
-              <li><a href="#">公司简介</a></li>
-              <li><a href="#">企业文化</a></li>
-              <li><a href="#">联系我们</a></li>
-              <li><a href="#">中讯动态</a></li>
-              <li><a href="#">加入我们</a></li>
-            </ul>
-          </li>
-          <li class=""><a href="list_news.html">产品中心</a></li>
-          <li class=""><a href="list_product.html">经典案例</a></li>
-          <li class=""><a href="list_product.html">技术支持</a></li>
-          <li class=""><a href="list_product.html">联系我们</a></li>
-        </ul>
-        <div class="btnDiv">
-          <button type="button" class="btn btn-default">登录</button>
-          <button type="button" class="btn btn-primary">注册</button>
-        </div>
-        <button type="button" class="navbar-toggle">
-          <img src="img/img_04.png" alt="" />
-        </button>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+      <button type="button" class="navbar-toggle">
+        <img src="img/img_04.png" alt="" />
+      </button>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
 <!-- carousel区 -->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -82,16 +82,24 @@
 </div>
 <!-- 文章 -->
 <div class="row-article">
-  <div class="article">
-    <h1>产品名称</h1>
-    <p class="info">时间：2018-12-12</p>
-    <article>
-      <p>对于不包含在中的元素，加上 .navbar-btn 后，可以让它在导航条里垂直居中。有一些对于为辅助设备提供可识别标签的方法，例如， aria-label、aria-labelledby 或者 title 属性。如果这些方法都没有，屏幕阅读器将使用 placeholder 属性（如果这个属性存在的话），但是请注意，使用 placeholder 代替其他识别标签的方式是不推荐的。</p>
-      <p><img src="img/img_01.png" alt=""><img src="img/img_product_01.png" alt=""></p>
-      <p>对于不包含在中的元素，加上 .navbar-btn 后，可以让它在导航条里垂直居中。有一些对于为辅助设备提供可识别标签的方法，例如， aria-label、aria-labelledby 或者 title 属性。如果这些方法都没有，屏幕阅读器将使用 placeholder 属性（如果这个属性存在的话），但是请注意，使用 placeholder 代替其他识别标签的方式是不推荐的。</p>
+  <div class="wrap clearfix">
+    <div class="menu">
+      <ul id="" class="clearfix">
+        <li class="col-xs-6 active"><a href="#" title="">集团新闻</a></li>
+        <li class="col-xs-6"><a href="#" title="">专业知识</a></li>
+      </ul>
+    </div>
+    <div class="article">
+      <h1>产品名称</h1>
+      <p class="info">时间：2018-12-12</p>
+      <article>
+        <p>对于不包含在中的元素，加上 .navbar-btn 后，可以让它在导航条里垂直居中。有一些对于为辅助设备提供可识别标签的方法，例如， aria-label、aria-labelledby 或者 title 属性。如果这些方法都没有，屏幕阅读器将使用 placeholder 属性（如果这个属性存在的话），但是请注意，使用 placeholder 代替其他识别标签的方式是不推荐的。</p>
+        <p><img src="img/img_01.png" alt=""><img src="img/img_product_01.png" alt=""></p>
+        <p>对于不包含在中的元素，加上 .navbar-btn 后，可以让它在导航条里垂直居中。有一些对于为辅助设备提供可识别标签的方法，例如， aria-label、aria-labelledby 或者 title 属性。如果这些方法都没有，屏幕阅读器将使用 placeholder 属性（如果这个属性存在的话），但是请注意，使用 placeholder 代替其他识别标签的方式是不推荐的。</p>
 
-      <p>对于不包含在中的元素，加上 .navbar-btn 后，可以让它在导航条里垂直居中。有一些对于为辅助设备提供可识别标签的方法，例如， aria-label、aria-labelledby 或者 title 属性。如果这些方法都没有，屏幕阅读器将使用 placeholder 属性（如果这个属性存在的话），但是请注意，使用 placeholder 代替其他识别标签的方式是不推荐的。</p>
-    </article>
+        <p>对于不包含在中的元素，加上 .navbar-btn 后，可以让它在导航条里垂直居中。有一些对于为辅助设备提供可识别标签的方法，例如， aria-label、aria-labelledby 或者 title 属性。如果这些方法都没有，屏幕阅读器将使用 placeholder 属性（如果这个属性存在的话），但是请注意，使用 placeholder 代替其他识别标签的方式是不推荐的。</p>
+      </article>
+    </div>
   </div>
 </div>
 
